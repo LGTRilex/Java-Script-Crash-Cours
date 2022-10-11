@@ -1,7 +1,5 @@
-let cash = 50
-let price = 40
-let isStoreOpen = false
+let arr = [10, 20, 30, 40, 50, 60, 70]
 
-if (cash >= price || isStoreOpen) {
-    console.log ('Print the receipt')
-}
+arr.filter((element) => {
+    console.log(element)
+})
