@@ -1,14 +1,7 @@
-// DRY= DO NOT REPEAT YOUR SELF
-let count = 2
+let cash = 50
+let price = 40
+let isStoreOpen = false
 
- while (count <=1) {
-    count = count + 1;
-  console.log (`this code runned`)
- }
-
- while (count 100) {
-    count = count +1
-    if (count = 100) {
-	console. log (`count`)
-    }
+if (cash >= price || isStoreOpen) {
+    console.log ('Print the receipt')
 }
